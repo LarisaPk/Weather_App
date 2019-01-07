@@ -1,0 +1,59 @@
+
+h1,label,h3,span, select {
+    margin: 0;
+}
+
+h1 {
+    font-size: 16rem;
+}
+
+label, h4 {
+    font-size: 1.5rem;
+    
+}
+
+select {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+span {
+    font-size: 6rem;
+    font-weight:600;
+}
+
+.container{
+    max-width: 550px;
+    height:100vh;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 5% 10% 5% 80%;
+    text-align: center;
+    padding: 25px 5px;
+}
+
+#select, #search {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 2rem 0 2rem;  
+    
+}
+#or{
+    padding: 5px;
+    align-content: center;
+    
+}
+.temperature {
+    display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	margin-left: 2rem;
+}
+
+img {
+	width: 80px;
+	filter: grayscale(100%);
+}

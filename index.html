@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>Weather App</title>
+    </head>
+    
+    <body >
+        
+         <div class="container">
+           <div id="select">
+             <label>Select your city</label>
+             <select id = "city" onfocus="this.value=''">
+               <option value = ""></option>
+               <option value = "Helsinki" selected="selected">Helsinki</option>
+               <option value = "London">London</option>
+               <option value = "Berlin">Berlin</option>
+               <option value = "Budapest">Budapest</option>
+               <option value = "Oslo">Oslo</option>
+               <option value = "Moscow">Moskow</option>
+             </select>
+          </div>
+          <div id="or"><h4>Or use the search</h4></div>
+          <div id="search">   
+             <input type="search" id="site-search" name="q"onfocus="this.value=''">
+             <input type="button" value="Search" id="searchButton">
+          </div>  
+          <div class="data">
+                
+                 <h2>Wather in Helsinki</h2>
+                 <input type="button" value="Get data" id="button">
+                <div class="temperature"> 
+                    <h1 id="temp">0</h1>
+                    <span>&#176</span>
+                </div>
+                <img src="" id="icon" alt="icon">
+                <h3 id="clouds">Clouds </h3> 
+                <h3 id="humidity"> Humidity</h3>
+                
+           </div>     
+        </div>
+        <script src="script.js" type="text/javascript">
+            
+        </script>
+    </body>
+    
+</html>
